@@ -1,0 +1,330 @@
+
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Casa y Cazuela | Restaurante Español</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="bg-orange-50 text-stone-800 antialiased">
+
+    <!-- Navegación -->
+    <header class="bg-white border-b border-amber-200 sticky top-0 z-10 shadow-sm">
+      <nav class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+
+        <a href="#" class="font-bold font-serif text-2xl text-red-900">
+          🍲 Casa y Cazuela
+        </a>
+
+        <div class="hidden md:flex gap-6">
+          <a href="#filosofia" class="text-stone-600 hover:text-red-900 transition">Filosofía</a>
+          <a href="#carta" class="text-stone-600 hover:text-red-900 transition">La Carta</a>
+          <a href="#reservas" class="text-stone-600 hover:text-red-900 transition">Reservas</a>
+        </div>
+
+        <a href="#reservas" class="bg-red-800 hover:bg-red-950 text-white text-sm font-medium px-3.5 py-1.5 rounded-md transition">
+          Reservar mesa
+        </a>
+
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="py-28 bg-red-900 bg-cover bg-center text-white text-center px-4"
+      style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('img/portada.jpg');">
+
+      <div class="max-w-2xl mx-auto">
+
+        <span class="inline-block bg-amber-100 text-red-900 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
+          100% Casero · Cocina Española
+        </span>
+
+        <h1 class="text-4xl md:text-5xl font-bold font-serif tracking-tight mb-4">
+          Cocina española tradicional en el corazón de Madrid
+        </h1>
+
+        <p class="text-lg md:text-xl text-amber-100 mb-8">
+          Recetas de toda la vida con ingredientes frescos y de temporada, servidas en un ambiente acogedor y familiar.
+        </p>
+
+        <div class="flex justify-center gap-3">
+
+          <a href="#reservas" class="bg-amber-100 hover:bg-white text-red-900 font-semibold px-6 py-3 rounded-lg transition">
+            Reservar ahora
+          </a>
+
+          <a href="#carta" class="border border-amber-300 hover:bg-red-800 text-white font-medium px-6 py-3 rounded-lg transition">
+            Ver carta
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Filosofía -->
+    <section id="filosofia" class="py-16 bg-white border-b border-amber-200 px-4">
+
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+
+        <div>
+          <h2 class="text-3xl font-bold font-serif text-red-900 mb-3">
+            De nuestros fogones a tu mesa
+          </h2>
+
+          <p class="text-stone-600 mb-4">
+            Elaboramos cada día recetas tradicionales de la gastronomía española con productos frescos y de temporada.
+          </p>
+
+          <ul class="space-y-2 text-stone-600">
+            <li>✓ Platos caseros elaborados diariamente</li>
+            <li>✓ Ingredientes frescos y de temporada</li>
+            <li>✓ Vinos españoles y postres tradicionales</li>
+          </ul>
+        </div>
+
+        <div class="p-10 bg-amber-50 border border-amber-200 rounded-2xl text-center shadow-sm">
+
+          <p class="text-xl text-red-900 font-bold font-serif mb-2">
+            Menú de la Casa
+          </p>
+
+          <p class="text-stone-600 mb-4">
+            Primer plato + segundo plato + postre casero
+          </p>
+
+          <span class="text-4xl font-bold text-red-900">
+            22 €
+          </span>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- La Carta -->
+    <section id="carta" class="py-16 px-4 bg-orange-50">
+
+      <div class="max-w-6xl mx-auto">
+
+        <h2 class="text-3xl font-bold font-serif text-red-900 text-center mb-2">
+          Platos Estrella
+        </h2>
+
+        <p class="text-center text-stone-600 mb-10">
+          Los sabores tradicionales favoritos de nuestros clientes
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+          <!-- Tortilla -->
+          <div class="p-6 bg-white border border-amber-200 rounded-xl flex flex-col justify-between shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300">
+
+            <div>
+
+              <img
+                src="img/tortilla.jpg"
+                alt="Tortilla de patatas casera"
+                class="w-full h-48 object-cover rounded-lg mb-4"
+              />
+
+              <div class="flex justify-between items-start gap-2 mb-2">
+
+                <h3 class="text-lg font-bold font-serif">
+                  Tortilla de Patatas Casera
+                </h3>
+
+                <span class="font-bold text-red-800 shrink-0">
+                  9,50 €
+                </span>
+
+              </div>
+
+              <p class="text-stone-600 text-sm mb-4">
+                Tortilla tradicional elaborada con huevos de corral, patatas, cebolla y aceite de oliva virgen extra.
+              </p>
+
+            </div>
+
+            <span class="self-start bg-amber-100 text-red-900 text-xs font-semibold px-2.5 py-1 rounded">
+              Especialidad de la casa
+            </span>
+
+          </div>
+
+          <!-- Croquetas -->
+          <div class="p-6 bg-white border border-amber-200 rounded-xl flex flex-col justify-between shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300">
+
+            <div>
+
+              <img
+                src="img/croqueta.jpg"
+                alt="Croquetas de jamón ibérico"
+                class="w-full h-48 object-cover rounded-lg mb-4"
+              />
+
+              <div class="flex justify-between items-start gap-2 mb-2">
+
+                <h3 class="text-lg font-bold font-serif">
+                  Croquetas de Jamón Ibérico
+                </h3>
+
+                <span class="font-bold text-red-800 shrink-0">
+                  12,00 €
+                </span>
+
+              </div>
+
+              <p class="text-stone-600 text-sm mb-4">
+                Croquetas caseras de jamón ibérico con bechamel cremosa y un rebozado dorado y crujiente.
+              </p>
+
+            </div>
+
+            <span class="self-start bg-amber-100 text-red-900 text-xs font-semibold px-2.5 py-1 rounded">
+              Favorito
+            </span>
+
+          </div>
+
+          <!-- Paella -->
+          <div class="p-6 bg-white border border-amber-200 rounded-xl flex flex-col justify-between shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300">
+
+            <div>
+
+              <img
+                src="img/paellas.jpg"
+                alt="Paella valenciana tradicional"
+                class="w-full h-48 object-cover rounded-lg mb-4"
+              />
+
+              <div class="flex justify-between items-start gap-2 mb-2">
+
+                <h3 class="text-lg font-bold font-serif">
+                  Paella Valenciana
+                </h3>
+
+                <span class="font-bold text-red-800 shrink-0">
+                  18,50 €
+                </span>
+
+              </div>
+
+              <p class="text-stone-600 text-sm mb-4">
+                Paella tradicional con arroz, pollo, conejo, judías verdes, garrofón y azafrán.
+              </p>
+
+            </div>
+
+            <span class="self-start bg-amber-100 text-red-900 text-xs font-semibold px-2.5 py-1 rounded">
+              Receta tradicional
+            </span>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservas -->
+    <section id="reservas" class="py-16 bg-white border-t border-amber-200 px-4">
+
+      <div class="max-w-lg mx-auto">
+
+        <h2 class="text-3xl font-bold font-serif text-red-900 text-center mb-2">
+          Reserva tu mesa
+        </h2>
+
+        <p class="text-center text-stone-600 mb-6">
+          Abierto de martes a domingo · 13:00 a 23:30
+        </p>
+
+        <form class="p-6 border border-amber-200 rounded-xl bg-orange-50 space-y-4 shadow-md">
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+            <div>
+
+              <label for="fecha-tw" class="block text-sm font-medium text-stone-700 mb-1">
+                Fecha
+              </label>
+
+              <input
+                type="date"
+                id="fecha-tw"
+                required
+                class="w-full px-3 py-2 bg-white border border-amber-200 rounded-md focus:outline-none focus:ring-2 focus:ring-red-700"
+              />
+
+            </div>
+
+            <div>
+
+              <label for="comensales-tw" class="block text-sm font-medium text-stone-700 mb-1">
+                Comensales
+              </label>
+
+              <select
+                id="comensales-tw"
+                class="w-full px-3 py-2 bg-white border border-amber-200 rounded-md focus:outline-none focus:ring-2 focus:ring-red-700"
+              >
+                <option value="2">2 personas</option>
+                <option value="4">4 personas</option>
+                <option value="6">6 personas</option>
+              </select>
+
+            </div>
+
+          </div>
+
+          <div>
+
+            <label for="nombre-tw" class="block text-sm font-medium text-stone-700 mb-1">
+              Nombre completo
+            </label>
+
+            <input
+              type="text"
+              id="nombre-tw"
+              placeholder="Ej. Laura Gómez"
+              required
+              class="w-full px-3 py-2 bg-white border border-amber-200 rounded-md focus:outline-none focus:ring-2 focus:ring-red-700"
+            />
+
+          </div>
+
+          <button
+            type="submit"
+            class="w-full bg-red-800 hover:bg-red-950 text-white font-semibold py-2.5 rounded-md transition"
+          >
+            Confirmar reserva
+          </button>
+
+        </form>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-red-900 text-center text-amber-100">
+
+      <p class="text-2xl font-bold font-serif mb-2">
+        🍲 Casa y Cazuela
+      </p>
+
+      <p class="text-sm mb-2">
+        Cocina española casera y tradicional
+      </p>
+
+      <p class="text-sm">
+        Calle del Olivo 14, Madrid
+      </p>
+
+      <p class="text-xs mt-4">
+        © 2026 Casa y Cazuela · Todos los derechos reservados
+      </p>
+
+    </footer>
+
+  </body>
+</html>
